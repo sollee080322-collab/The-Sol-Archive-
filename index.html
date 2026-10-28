@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Sol Archive</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f8f7f4;
+      color: #222;
+      font-family: Georgia, serif;
+    }
+    header {
+      padding: 25px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      margin-left: 20px;
+      color: #222;
+      text-decoration: none;
+      font: 12px Arial, sans-serif;
+    }
+    .hero {
+      padding: 120px 10%;
+      text-align: center;
+    }
+    h1 {
+      font-size: clamp(48px, 8vw, 100px);
+      font-weight: normal;
+      margin: 15px 0;
+    }
+    .subtitle {
+      font: 12px Arial, sans-serif;
+      letter-spacing: 3px;
+    }
+    .intro {
+      max-width: 570px;
+      margin: auto;
+      line-height: 1.8;
+      color: #555;
+    }
+    section {
+      padding: 50px 10%;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+    .item {
+      padding: 35px;
+      background: #eae7e1;
+      min-height: 120px;
+    }
+    .item h3 { font-weight: normal; }
+    footer {
+      text-align: center;
+      padding: 40px;
+      font: 12px Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>THE SOL ARCHIVE</strong>
+    <nav>
+      <a href="#about">ABOUT</a>
+      <a href="#work">WORK</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="subtitle">SOL LEE · PERSONAL PORTFOLIO</div>
+    <h1>The Sol Archive.</h1>
+    <p class="intro">
+      Moments and experiences that have shaped
+      who I am and who I aspire to become.
+    </p>
+  </div>
+
+  <section id="about">
+    <div class="subtitle">01 / INTRODUCTION</div>
+    <h2>About Me</h2>
+    <p>
+      An aspiring journalist with a passion for
+      storytelling, leadership and community service.
+    </p>
+  </section>
+
+  <section id="work">
+    <div class="subtitle">02 / SELECTED EXPERIENCES</div>
+    <h2>Explore My Archive</h2>
+    <div class="grid">
+      <div class="item"><h3>Journalism</h3><p>Broadcasting & Newsroom</p></div>
+      <div class="item"><h3>Community Service</h3><p>Hospital Volunteering</p></div>
+      <div class="item"><h3>Leadership</h3><p>Club SHOES & School Activities</p></div>
+      <div class="item"><h3>Arts & Creativity</h3><p>Music, Film & Writing</p></div>
+    </div>
+  </section>
+
+  <footer>© 2026 THE SOL ARCHIVE · SOL LEE</footer>
+</body>
+</html>
